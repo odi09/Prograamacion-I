@@ -1,0 +1,5 @@
+18:51:15 **** Clean-only build of configuration Debug for project Clase_03 ****
+rm -rf src/Clase_03.o Clase_03.exe src/Clase_03.d 
+
+18:51:15 Build Finished. 0 errors, 0 warnings. (took 124ms)
+

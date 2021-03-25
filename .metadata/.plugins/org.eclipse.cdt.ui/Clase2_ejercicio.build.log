@@ -1,0 +1,5 @@
+17:33:44 **** Clean-only build of configuration Debug for project Clase2_ejercicio ****
+rm -rf Clase2_ejercicio.exe src/Clase2_ejercicio.d src/Clase2_ejercicio.o 
+
+17:33:44 Build Finished. 0 errors, 0 warnings. (took 110ms)
+

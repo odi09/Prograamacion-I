@@ -1,0 +1,14 @@
+21:34:34 **** Rebuild of configuration Debug for project Class2_ejercicio2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Class2_ejercicio2.o" "..\\src\\Class2_ejercicio2.c" 
+..\src\Class2_ejercicio2.c: In function 'main':
+..\src\Class2_ejercicio2.c:21:17: error: 'FINISH' undeclared (first use in this function)
+   21 |  }while(numero!=FINISH);
+      |                 ^~~~~~
+..\src\Class2_ejercicio2.c:21:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Class2_ejercicio2.c:16:8: warning: unused variable 'promedio' [-Wunused-variable]
+   16 |  float promedio;
+      |        ^~~~~~~~
+
+21:34:35 Build Failed. 1 errors, 1 warnings. (took 181ms)
+
