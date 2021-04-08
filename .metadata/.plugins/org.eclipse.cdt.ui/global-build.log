@@ -49,3 +49,24 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
 gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
 Info: Nothing to build for Clase_7-cadenas
+20:47:40 **** Incremental Build of configuration Debug for project Clase_7-cadenas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+..\src\Clase_7-cadenas.c: In function 'main':
+..\src\Clase_7-cadenas.c:31:2: error: 'i' undeclared (first use in this function)
+   31 |  i = strlen(texto);
+      |  ^
+..\src\Clase_7-cadenas.c:31:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Clase_7-cadenas.c:32:2: error: 'j' undeclared (first use in this function)
+   32 |  j = sizeof(texto);
+      |  ^
+20:48:36 **** Incremental Build of configuration Debug for project Clase_7-cadenas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
+Info: Nothing to build for Clase_7-cadenas
+20:48:55 **** Incremental Build of configuration Debug for project Clase_7-cadenas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
+Info: Nothing to build for Clase_7-cadenas

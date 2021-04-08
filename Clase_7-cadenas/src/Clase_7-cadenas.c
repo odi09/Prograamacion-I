@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void Cadena(char* pArray)
 {
@@ -23,10 +24,16 @@ while(pArray[i]!=0)
 
 int main(void) {
 	setbuf(stdout, NULL);
-
+int i;
+int j;
 	char texto[]={'A','B','C','D',0};//SIEMPRE en comillas ''.
 // \0 es el 0 numerico
 	Cadena(texto);
+	i = strlen(texto);
+	j = sizeof(texto);
+
+	printf("%d\n",i);
+	printf("%d\n",j);// devuelve
 
 	return EXIT_SUCCESS;
 }
