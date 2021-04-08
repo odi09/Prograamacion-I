@@ -14,7 +14,7 @@
 int suma(int num1,int num2, float* sResultado);
 int resta(int num1,int num2, float* rResultado);
 int multiplicar(int num1,int num2, float* rResultado);
-float division(float num1, float num2, float* dResultado);
+float division(int num1, int num2, float* dResultado);
 
 int main()
 {
@@ -83,15 +83,14 @@ int multiplicar(int num1,int num2, float* rResultado)
     return 0;
 }
 
-float division(float num1, float num2, float* dResultado)
+float division(int num1, int num2, float* dResultado)
 {
-    if(num2!=0)
+	int retorno = -1;
+    if(dResultado != NULL && num2!=0)
     {
-        *dResultado=num1/num2;
+        *dResultado=(float)num1/num2;
+        retorno = 0;
     }
-    else
-    {
-        return-1;
-    }
-    return 0;
+
+    return retorno;
 }
