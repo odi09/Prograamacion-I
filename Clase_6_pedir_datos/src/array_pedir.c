@@ -11,19 +11,16 @@
 
 int pedirNumero(int* pNum, int* pArray, int tamano, char* pTexto)
 {
-	int retorno = 0;
-
+	int retorno = 1;
+if(pNum!=NULL && pArray!=NULL && tamano>0 && pTexto!=NULL )
 do{
 	printf("%s", pTexto);
 
 	if(scanf("%d",pNum)==1)
 	{
-		retorno=1;
+		retorno=0;
 	}
-	else
-	{
 
-	}
 }while(retorno==0);
 
 	return retorno;

@@ -1,22 +1,51 @@
-18:24:50 **** Clean-only build of configuration Debug for project Clase_6_pedir_datos ****
-rm -rf Clase_6_pedir_datos.exe src/Clase_6_pedir_datos.o src/array_pedir.o src/Clase_6_pedir_datos.d src/array_pedir.d 
-18:26:20 **** Rebuild of configuration Debug for project Clase_6_pedir_datos ****
+20:17:00 **** Clean-only build of configuration Debug for project Clase_7-cadenas ****
+rm -rf src/Clase_7-cadenas.d src/Clase_7-cadenas.o Clase_7-cadenas.exe 
+20:17:03 **** Rebuild of configuration Debug for project Clase_7-cadenas ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_6_pedir_datos.o" "..\\src\\Clase_6_pedir_datos.c" 
-..\src\Clase_6_pedir_datos.c: In function 'main':
-..\src\Clase_6_pedir_datos.c:21:22: warning: passing argument 2 of 'pedirNumero' from incompatible pointer type [-Wincompatible-pointer-types]
-   21 | pedirNumero(&numero, "Ingrese un numero: ");
-      |                      ^~~~~~~~~~~~~~~~~~~~~
-      |                      |
-      |                      char *
-In file included from ..\src\Clase_6_pedir_datos.c:13:
-..\src\array_pedir.h:11:33: note: expected 'int *' but argument is of type 'char *'
-   11 | int pedirNumero(int* pNum, int* pArray, int tamano, char* pTexto);
-      |                            ~~~~~^~~~~~
-..\src\Clase_6_pedir_datos.c:21:1: error: too few arguments to function 'pedirNumero'
-   21 | pedirNumero(&numero, "Ingrese un numero: ");
-      | ^~~~~~~~~~~
-In file included from ..\src\Clase_6_pedir_datos.c:13:
-..\src\array_pedir.h:11:5: note: declared here
-   11 | int pedirNumero(int* pNum, int* pArray, int tamano, char* pTexto);
-      |     ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+..\src\Clase_7-cadenas.c: In function 'main':
+..\src\Clase_7-cadenas.c:27:33: warning: excess elements in array initializer
+   27 |  char texto[4]={'A','B','C','D',0};//SIEMPRE en comillas ''.
+      |                                 ^
+..\src\Clase_7-cadenas.c:27:33: note: (near initialization for 'texto')
+gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
+Info: Nothing to build for Clase_7-cadenas
+20:18:09 **** Incremental Build of configuration Debug for project Clase_7-cadenas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
+Info: Nothing to build for Clase_7-cadenas
+20:18:27 **** Incremental Build of configuration Debug for project Clase_7-cadenas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+..\src\Clase_7-cadenas.c: In function 'main':
+..\src\Clase_7-cadenas.c:27:33: warning: excess elements in array initializer
+   27 |  char texto[4]={'A','B','C','D',0};//SIEMPRE en comillas ''.
+      |                                 ^
+..\src\Clase_7-cadenas.c:27:33: note: (near initialization for 'texto')
+gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
+Info: Nothing to build for Clase_7-cadenas
+20:18:42 **** Incremental Build of configuration Debug for project Clase_7-cadenas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+..\src\Clase_7-cadenas.c: In function 'main':
+..\src\Clase_7-cadenas.c:27:33: warning: excess elements in array initializer
+   27 |  char texto[4]={'A','B','C','D','\0'};//SIEMPRE en comillas ''.
+      |                                 ^~~~
+..\src\Clase_7-cadenas.c:27:33: note: (near initialization for 'texto')
+gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
+20:18:50 **** Incremental Build of configuration Debug for project Clase_7-cadenas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
+Info: Nothing to build for Clase_7-cadenas
+20:18:58 **** Incremental Build of configuration Debug for project Clase_7-cadenas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
+Info: Nothing to build for Clase_7-cadenas
+20:19:07 **** Incremental Build of configuration Debug for project Clase_7-cadenas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_7-cadenas.o" "..\\src\\Clase_7-cadenas.c" 
+gcc -o Clase_7-cadenas.exe "src\\Clase_7-cadenas.o" 
+Info: Nothing to build for Clase_7-cadenas

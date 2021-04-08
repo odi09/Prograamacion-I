@@ -973,3 +973,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-04-08 16:16:22.561
 !MESSAGE Indexed 'Clase_6_pedir_datos' (1 sources, 14 headers) in 0,236 sec: 951 declarations; 1.930 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-08 19:14:27.163
+!MESSAGE Indexed 'Clase_7-cadenas' (1 sources, 14 headers) in 0,092 sec: 951 declarations; 1.930 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
